@@ -12,7 +12,7 @@
 
     <!-- android -->
     <platform name="android">
-      <js-module src="www/plugin.js" name="plugin">
+      <js-module src="www/epos2.js" name="epos2">
         <runs/>
         <clobbers target="cordova.epos2" />
       </js-module>
@@ -38,7 +38,7 @@
 
     <!-- ios -->
     <platform name="ios">
-        <js-module src="www/plugin.js" name="plugin">
+        <js-module src="www/epos2.js" name="epos2">
             <runs/>
             <clobbers target="cordova.epos2" />
         </js-module>
